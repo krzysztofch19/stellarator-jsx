@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
-import styles from './styles.css'
+import './styles.css'
 
 function Input ({type, name, placeholder, label, value, size, error}) {
 
