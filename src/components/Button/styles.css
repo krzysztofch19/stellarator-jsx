@@ -1,21 +1,27 @@
-.btn {
-    background: white;
-    color: black;
-    padding: 5px 20px;
-    font-family: "Arial", sans-serif;
-    font-size: 16px;
-    border: 0;
+button {
+    display: block;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;   
 }
 
-.btn[disabled] {
-    background: grey;
+button.primary {    
+    background: #00f;
+    padding: 15px;
+    border: none;    
+    color: #fff;    
 }
 
-.btn-primary {
-    background: dodgerblue;
-    color: white;
+button.secondary {    
+    background: #fff;
+    padding: 14px;
+    border: 2px solid #00f;  
+    color: #000;      
 }
 
-.btn-secondary {
-    border: 1px solid dodgerblue;
+button[disabled] {    
+    background: #aaa;    
+    color: #eee;
+    border: none;
+    cursor: not-allowed;   
 }

@@ -1,0 +1,47 @@
+input, textarea {
+    display: block;   
+}
+
+.inputRow { 
+    margin-bottom: 15px;
+}
+
+input.small {
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+}
+
+input.medium {
+    width: 250px;
+    height: 40px; 
+    font-size: 16px;   
+}
+
+input.large {
+    width: 300px;
+    height: 50px; 
+    font-size: 20px;   
+}
+
+textarea.small {
+    width: 300px;
+    height: 200px;
+    font-size: 12px;
+}
+
+textarea.medium {
+    width: 300px;
+    height: 250px; 
+    font-size: 16px;   
+}
+
+textarea.large {
+    width: 300px;
+    height: 450px; 
+    font-size: 20px;   
+}
+
+span.error {
+    color: #f00;
+}

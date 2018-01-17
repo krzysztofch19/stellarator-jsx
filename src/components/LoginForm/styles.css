@@ -1,0 +1,19 @@
+.loginform input {
+    margin-bottom: 15px;
+    height: 18px;
+    border-radius: 2px;
+}
+
+.loginform input[type="submit"] {   
+    border-radius: 5px;
+    font-size: 14px; 
+    background: #218838;
+    height: initial;
+    padding: 10px;
+    border: none;    
+    color: #fff;  
+}
+
+.loginform input[type="submit"]:focus, .loginform input[type="submit"]:active {   
+   outline: none  
+}

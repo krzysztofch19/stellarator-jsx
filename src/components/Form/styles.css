@@ -1,0 +1,9 @@
+.formComponent input[type="password"], .formComponent input[type="text"] {
+    margin-bottom: 15px;
+    width: 200px;
+    height: 30px;
+}
+
+.checkbox-row input {
+    display: inline-block;
+}
